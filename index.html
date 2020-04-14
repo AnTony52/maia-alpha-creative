@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Button-Logo_Img/Maia Resorts_Favicon.svg"/>
     <title>MAIA RESORT</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
+<div class="loading">
+    <div class="loading__logo">
+        <img src="./Button-Logo_Img/logo.svg" alt="" width="200">
+    </div>
+    <div id="loading__wrap"></div>
+</div>
+<div id="container">
     <div class="beli-icon dflex">
         
         <div class="beli-icon__en">
             <a href="#1">EN</a>
         </div>
-        <div class="beli-icon__vi">
-            <a href="#2">VI</a>
+        <div class="beli-icon__vi--wrapper">
+            <div class="beli-icon__vi">
+                <a href="#2">VI</a>
+            </div>
         </div>
         <div class="beli-icon__icon">
             <img src="./Button-Logo_Img/bellicon_1.gif" alt="">
@@ -33,8 +41,15 @@
     <header>
         <nav class="header__menu" id="header__menu">
    
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="responsive-header-logo"><a href="#34"><img src="./Button-Logo_Img/logo.svg" alt=""></a></div>
+            <div class="beli-icon__icon--mobile"><a href="#56"><img src="./Button-Logo_Img/bellicon_1.gif" alt=""></a></div>
 
-            <ul class="dflex">
+            <ul class="dflex header__menu__container">
+                <li class="responsive__close-menu" ><i class="fa fa-times text-light"></i></li>
                 <li class="menu__list"><a href="#"> dine</a></li>
                 <li class="menu__list"><a href="#"> save</a></li>
                 <li class="menu__list"><a href="#"> stay</a></li>
@@ -42,13 +57,13 @@
                 <li class="menu__list"><a href="#"> relax</a></li>
                 <li class="menu__list"><a href="#"> explore</a></li>
                 <li class="menu__list"><a href="#"> gallery</a></li>
+                <li class="responsive__en-vi">
+                    <div class="responsive-en"> <a href="#">EN</a> </div>
+                    <div class="responsive-vi"> <a href="#">VI</a> </div>
+                </li>
             </ul>
 
-       
-
         </nav>
-
-
 
 
         <div class="header__slogan">
@@ -67,9 +82,11 @@
         <div class="slide3"></div>
     </header>
     <div>
-        <div class="welcome">
+        <div class="welcome my-element"
+        data-paroller-direction="vertical"
+        data-paroller-factor="0.5">
             <div class="welcome__icon"><img src="./Button-Logo_Img/icon-01.svg" alt=""></div>
-            <div class="welcome__title">welcome to quy nhon</div>
+            <h1 class="welcome__title" >welcome to quy nhon</h1>
             <div class="welcome__context">
                 <p>When we at Maia think of “getting away from it all”, Maia Resort Quy Nhon is the kind of place we imagine. With private pools and secluded gardens outside each and every one of our spacious thatched villas, plus stunning beach and riverfront views, mouth-watering dining options, a “breakfast anywhere, anytime” concept, and Maia’s unique “all-spa inclusive” service, it’s the ideal place to disconnect, switch off, and put the rest of the world  on hold for a few days or weeks at a time.
                 </p>
@@ -78,11 +95,12 @@
         <!-- end welcome -->
 
         <div class="about">
+            <h1 class="left__dummy__title">MAIA RESORT QUY NHON</h1>
             <div class="about__left">
-                <div class="left__title">MAIA RESORT QUY NHON</div>
-                <div class="left__paralax">
-                    
-                </div>
+                <h1 class="left__title">MAIA RESORT QUY NHON</h1>
+                <div class="left__paralax my-element"
+                data-paroller-direction="vertical"
+                data-paroller-factor="0.1"></div>
             </div>
             <div class="about__right">
                 <div class="right__img">
@@ -102,10 +120,10 @@
         <!-- end about maia resort quy nhon -->
         <div class="distance">
             <div class="distance__left">
-                <img src="./Button-Logo_Img/Mask Group 11.png" alt="">
+                <img src="./Button-Logo_Img/Map.svg" alt="">
             </div>
             <div class="distance__right">
-                <div class="distance__right__title">from resort to</div>
+                <h1 class="distance__right__title">from resort to</h1>
                 <div class="distance__right__container">
                     <div class="container__component">
                         <div class="component__title">
@@ -172,7 +190,7 @@
         </div>
         <!-- end distance -->
         <div class="stay-connected">
-            <div class="stay-connected__para">Stay connected</div>
+            <h1 class="stay-connected__para">Stay connected</h1>
             <div class="stay-connected__contact">We're on Instagram: <span>#maiaresortquynhon</span></div>
         </div>
         <!-- end stay connected -->
@@ -224,8 +242,6 @@
                         <img src="./Button-Logo_Img//Img Instagram/icon-instagram.svg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="gallery__row">
                 <div class="gallery__row__img">
                     <img src="./Button-Logo_Img/Img Instagram/Restaurant.png" alt="">
                     <div class="gallery__img--override">
@@ -279,12 +295,12 @@
                 <img src="./Button-Logo_Img/logo.svg" alt="">
             </div>
             <div class="contact__info">
-                <p class="contact__info__title">MAIA RESORT QUY NHON</p>
-                <div>A part of mark No. 1, Nhon Ly - Cat Tien 
+                <h5 class="contact__info__title">MAIA RESORT QUY NHON</h5>
+                <span>A part of mark No. 1, Nhon Ly - Cat Tien 
                     Beach Resort, Nhon Hoi Economic Zone, Cat Tien Ward,
-                     Phu Cat District, Binh Dinh Province, Vietnam </div>
-                <div>T. +84 297 3690 000 </div>
-                <div>E. reservations@maiaresorts.com</div>
+                     Phu Cat District, Binh Dinh Province, Vietnam </span> <br>
+                <span> <span class="text-bold">T.</span>  +84 297 3690 000 </span> <br>
+                <span> <span class="text-bold">E.</span>  reservations@maiaresorts.com</span>
             </div>
             <div class="contact__form">
                 <div class="contact__form__title">sign up for newsletter</div>
@@ -298,48 +314,42 @@
                 <p class="contact__follow__title">follow us</p>
                 <div class="contact__follow__context">Social media channels</div>
                 <ul class="contact__follow__icons">
-                    <li class="fab fa-tripadvisor"></li>
-                    <li class="fab fa-facebook-square"></li>
-                    <li class="fab fa-instagram"></li>
-                    <li class="fab fa-youtube"></li>
+                    <li class=""><a href="#" class="fab fa-tripadvisor"></a></li>
+                    <li class=""><a href="#" class="fab fa-facebook-square"></a></li>
+                    <li class=""><a href="#" class="fab fa-instagram"></a></li>
+                    <li class=""><a href="#" class="fab fa-youtube"></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <footer>
         <div class="footer__logos">
-            <ul class="">
-                <li><img src="./Button-Logo_Img/Logos/Group 529.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 382.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 159.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 380.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 166.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 524.svg" alt=""></li>
-                <li><img src="./Button-Logo_Img/Logos/Group 528.svg" alt=""></li>
-            </ul>
+            <div class="dflex logos__container">
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 529.svg" alt=""></div>
+                <div class="logos__fusion-border" style="width: 0px; height: 40px;background-color: #ccc;border-right: 1px solid #ccc;"></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 382.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 159.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 380.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 166.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 524.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 528.svg" alt=""></div>
+            </div>
             
         </div>
         <div class="footer__infos dflex">
             <div class="info__1">
-                <p class="info__1__title">CTY TNHH SERENITY HOLDING VIỆT NAM </p>
-                <div class="info__1__address">
-                    Địa chỉ: Lô L7-03+04, Tầng L7 , Tòa nhà Vincom Center
+                <p class="info__1__title">CTY TNHH SERENITY HOLDING VIET NAM </p>
+                <p class="info__1__address">
+                    Địa chỉ: Lô L7-03+04, Tầng L7, Tòa nhà Vincom Center
                      Đồng Khởi. Số 72 Lê Thánh Tôn và số 45A Lý Tự Trọng,
-                      Phường Bến Nghé, Quận 1, TP.HCM     •     Hotline: (028)
-                </div>
-            </div>
-            <div class="info__2">
-                <div class="info__2__email">
-                    Email: info@fusionhotelgroup.com <br>
+                      Phường Bến Nghé, Quận 1, TP.HCM     <span style="font-family: Zona-Regular;">-  Hotline: (028) 39101000</span>      
+                      <span class="info__2__email">  - Email: info@fusionhotelgroup.com</span>
+                </p>
+                <p class="info__2__certificate">
                     Giấy CNĐKDN: 0313903779 - Ngày cấp: 09/07/2016.
                      Cơ quan cấp: Phòng Đăng ký kinh doanh Sở Kế hoạch 
                      và Đầu tư TP.HCM
-                </div>
-                <div class="info__2__certificate">
-                    Giấy CNĐKDN: 0313903779 - Ngày cấp: 09/07/2016.
-                     Cơ quan cấp: Phòng Đăng ký kinh doanh Sở Kế hoạch 
-                     và Đầu tư TP.HCM
-                </div>
+                </p>
             </div>
             <div class="info__sale-policy">
                 <img src="./Button-Logo_Img/Logos/logoSaleNoti.svg" alt="">
@@ -347,35 +357,30 @@
         </div>
         <div class="footer__menu">
             <ul class="">
-                <li>CAREERS</li>
-                <li>OUR STORY</li>
-                <li>CONTACT US</li>
-                <li>BLOGS</li>
-                <li>PRIVACY POLICY</li>
-                <li>SERENITY HOLDING CO., LTD © 2020C </li>
+                <li> <a href="#"> CAREERS</a></li>
+                <li> <a href="#"> OUR STORY</a></li>
+                <li> <a href="#"> CONTACT US</a></li>
+                <li> <a href="#"> BLOGS</a></li>
+                <li> <a href="#"> PRIVACY POLICY</a></li>
+                <li> <a href="#"> ONLINE PAYMENT POLICY</a></li>
+                <li> <a href="#"> TERM & CONDITION </a></li>
             </ul>
+            <p class=""><a href="#">SERENITY HOLDING CO., LTD © 2020</a> </p>
         </div>
 
 
     </footer>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="./css/style.js"></script>
-
+</div>
 
 </body>
-<script>
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("header__menu").style.backgroundColor = "#0e8682";
-    document.getElementById("header__menu").style.backgroundImage = "none";
-    document.getElementById("header__menu").style.boxShadow = "0px 5px 50px";
-  } else {
-    document.getElementById("header__menu").style.backgroundColor = "transparent";
-    document.getElementById("header__menu").style.boxShadow = "0px 0px 0px";
-  }
-    }
-</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/paroller.js/dist/jquery.paroller.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+<script src="./css/style.js"></script>
+<script src="./css/loading.js"></script>
+<script src="./css/menuEffect.js"></script>
 </html>

@@ -1,0 +1,411 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .beli-icon__vi--wrapper {
+        display: none;
+    }
+    .beli-icon {
+        display: none;
+    }
+    .beli-icon__vi {
+        display: none;
+    }
+    .beli-icon__en {
+        display: none;
+    }
+    .beli-icon__icon {
+        display: none;
+    }
+    
+    /* end beli-icon display none */
+    
+    /* end inbox */
+    .header__menu {
+        /* display: block; */
+        position: fixed;
+        display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+        justify-content: space-around;-webkit-justify-content: space-around; 
+        align-items: center;-webkit-align-items: center; 
+        background-color: #1d9b96;
+        background-image: none;
+    }
+    .logo {
+        display: none;
+    }
+    /* #check, */
+     .checkbtn, .responsive-header-logo, .beli-icon__icon--mobile {
+        display: block;
+    }
+    #check {
+
+    }
+    .checkbtn {
+        font-size: 30px;
+        color: #fff;
+        float: left;
+        /* line-height: 80px; */
+        /* margin-left: 0 auto; */
+        cursor: pointer;
+        text-align: center;
+        width: 20%;
+    }
+    .responsive-header-logo {
+        width: 60%;
+        text-align: center;
+    
+        justify-self: center;
+        padding: 1rem;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    .responsive-header-logo a:hover {
+        text-decoration: none;
+        border-bottom: none;
+    }
+    .responsive-header-logo img{
+        width: 5rem;
+    }
+    .beli-icon__icon--mobile {
+        width: 20%;
+    }
+    .beli-icon__icon--mobile a:hover {
+        text-decoration: none;
+    }
+    .beli-icon__icon--mobile img {
+        width: 5.5rem;
+    }
+    .header__menu ul {
+        padding-left: 0;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #1d9b96;
+        /* #0e8682 */
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__menu ul li {
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    .responsive__close-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .responsive__close-menu i{
+        color: white;
+    }
+    .responsive__en-vi {
+        display: flex;
+        align-self: flex-end;
+        color: #f4f4f4;
+    }
+    .responsive__en-vi div {
+        padding: 1rem;
+        font-family: Zona-Regular;
+        width: 100%;
+        font-size: .8rem;
+        margin-top: 2rem;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    /* end responsive menu */
+
+
+    .header__slogan h3{
+        font-size: 1.2rem;
+    }
+    /* end header */
+    .welcome {
+        padding: 8rem 2rem;
+        height: auto;
+    }
+    .welcome__icon {
+        padding-top: 0;
+    }
+    .welcome__title {
+        font-size: 1rem;
+        padding: 2rem
+    }
+    .welcome__context {
+        height: auto;
+        padding-left: .3rem;
+        padding-right: .3rem;
+        width: 100%;
+        font-size: .8rem;
+    }
+    
+    /* .about__left */
+    .about {
+        flex-direction: column-reverse;
+        padding-bottom: 0rem;
+    }
+    .about__left {
+        width: 100%;
+    }
+
+    .left__title {
+        display: none;
+    }
+    .left__dummy__title {
+        display: block !important;
+        order: 4;
+        padding: 0 2rem;
+    }
+    .left__paralax {
+        background-image: url('../Button-Logo_Img/PHRASE 2- 3 BEDROOMS-LIVING ROOM.png');
+        background-attachment: unset;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+        height: 15rem;
+        margin-top: 50px;
+    }
+    .about__right {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+        padding: 1rem 2rem;
+    }
+    .right__img {
+        width: 60%;
+    }
+    .right__context p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    /* end  */
+    .distance {
+        flex-direction: column;
+    }
+    .distance__left {
+        width: 100%;
+        
+    }
+    .distance__right {
+        padding: 2rem;
+    }
+    .component__title {
+        font-size: .7rem;
+    }
+    .component__km {
+        font-size: 1rem;
+    }
+    /* end distance */
+    .stay-connected {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .stay-connected__para {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .stay-connected__contact {
+        font-size: 1rem;
+    }
+    .stay-connected__contact span {
+        font-size: 1.5rem;
+    }
+    .gallery__row__img {
+        width: 50% !important;
+    }
+    /* end gallery */
+    .contact {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    .contact__logo, .contact__info, .contact__form, .contact__follow {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 1rem;
+    }
+    .contact__logo {
+        margin-bottom: 2rem;
+    }
+    .contact__info, .contact__form, .contact__follow {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+    .contact__info {
+        margin: 0 auto;
+    }
+    .contact__form__title {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+    .contact__form__subs {
+        font-size: 1rem;
+    }
+
+    .contact__follow__title {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .contact__follow__context {
+        font-size: 1rem;
+    }
+    .contact__follow__icons ul {
+        width: 100%;
+    }
+    .contact__follow__icons li {
+        margin: 1rem .5rem;
+    }
+    .contact__follow__icons li a{
+        font-size: 3rem;
+    }
+    /* end contact */
+    footer {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .logos__item:not(:first-child) {
+        width: 50%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .logos__item:not(:first-child) img {
+        width: 80px;
+    }
+    .logos__item:first-child {
+        width: 100%;
+        border-right: none;
+        text-align: center;
+    }
+    .logos__item:first-child img {
+        width: 60px;
+    }
+    .footer__infos {
+        border-top: none;
+    }
+    .info__1 {
+        width: 100%;
+        text-align: center;
+
+    }
+    .info__sale-policy {
+        width: 100%;
+    }
+    .info__sale-policy img {
+        width: 50%;
+
+    }
+    /* end info */
+    footer {
+        padding-bottom: 0rem;
+    }
+    .footer__menu {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+    .footer__menu ul {
+        border: none;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    .footer__menu li {
+        margin: .5rem;
+    }
+    .footer__menu p {
+        text-align: center;
+    }
+    
+    /*end footer menu  */
+}
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and 768px) */
+@media (max-width: 768px) and (min-width: 600px) {
+    .beli-icon {
+        top: 7rem;
+        
+    }
+    .beli-icon img, .beli-icon__vi, .beli-icon__en{
+        width: 100%;
+    }
+    .slogan__bar {
+        margin-bottom: -2px;
+    }
+    .left__title {
+        margin-left: 1rem;
+    }
+    .distance {
+        display: flex;
+        flex-direction: column;
+    }
+    .distance__left {
+        width: 100%;
+    } 
+    .stay-connected {
+        padding-right: 1rem;
+    }
+    .contact {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contact__logo, .contact__follow {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .contact__info, .contact__form {
+        width: 50%;
+    }
+    .contact__follow {
+        margin-top: 2rem;
+        padding-right: 0;
+    }
+    .contact__follow__icons {
+        margin-top: 1rem;
+    }
+    footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media (max-width: 992px) and (min-width: 768px) {
+    .beli-icon {
+        top: 12rem;
+    }
+    .beli-icon img, .beli-icon__vi, .beli-icon__en{
+        width: 100%;
+    }
+
+    .distance {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .distance__left {
+        width: 100%;
+    }
+    .distance__right {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
