@@ -1,0 +1,165 @@
+.modal-content {
+	height: 70vh;
+	background: url("../Button-Logo_Img/Pattern white.svg") center no-repeat;
+	border-radius: 0;
+}
+.modal-body {
+	display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+	flex-direction: column;
+	justify-content: space-between;
+    padding: 2rem 2rem 2rem !important;
+}
+
+@media (min-width: 576px)
+{
+	.modal-dialog {
+		max-width: 50% !important;
+		max-height: 80vh !important;
+	    margin: 1.75rem auto;
+	}
+}
+.maia__form {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	/* margin-bottom: 1rem; */
+}
+.form__title {
+	font-size: 30px;
+	letter-spacing: 1px;
+
+	margin-bottom: 2rem;
+}
+.pick__container {
+	display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+	justify-content: space-around;-webkit-justify-content: space-around; 
+	align-items: center;-webkit-align-items: center; 
+
+	margin-bottom: 1rem;
+
+}
+.pick__container h3 {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #4A4A4A;
+	font-family: Zona-Regular;
+	letter-spacing: 1px;
+}
+.pick__section {
+	width: 18%;
+}
+.guest span, .children span, .baby span {
+	display: inline-block;
+	width: 30%;
+}
+.pick__container input {
+	width: 40px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+
+	color: #259B97;
+	text-align: center;
+
+	outline: none;
+}
+.pick__container button {
+
+	border: none;
+	background: transparent;
+
+}
+.pick__container button:focus {
+	outline: none;
+}
+.pick__container span {
+	color: #259B97;
+	cursor: context-menu;
+}
+.__border {
+	height: 45px;
+	width: 1px;
+	border: 1px solid #ccc;
+}
+.form__input form {
+	display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+	flex-direction: column;
+
+	padding: 0 10vw;
+}
+.form__input input {
+	margin: 1rem 0;
+	padding-bottom: 5px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+
+	color: #259B97;
+	text-align: center;
+
+	outline: none;
+}
+.form__input input::placeholder {
+	text-align: center;
+	font-family: Zona-Regular;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+/* .form__input button  */
+.book-now {
+	border: none;
+	outline: none;
+	background: #259B97;
+	padding: 1rem 2rem;
+	margin: 1rem auto 0;
+
+	color: #fff;
+	text-transform: uppercase;
+	font-family: zonapro-bold;
+	letter-spacing: 1px;
+
+	transition: .3s ease-in-out;
+}
+.book-now:hover {
+	background: #ECAE54;
+}
+.baby__number, .children__number, .guest__number {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+	user-select: none;  
+}
+
+
+.contact-info  {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+	margin: 8px auto;
+
+	font-size: 10px;
+	font-family: Zona-Regular;
+	color: #4A4A4A;
+}
+.contact-info span {
+	color: #259B97;
+	font-family: Zona-Regular;
+}
+
+/*MODAL 2*/
+
+#exampleModalCenter2 h1 {
+	color: #259B97;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+#exampleModalCenter2 h5 {
+	font-family: Zona-Regular;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+#exampleModalCenter2 .res-info>div {
+	margin: 1rem;
+}
+

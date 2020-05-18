@@ -1,0 +1,46 @@
+img {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+}
+h1::selection, h3::selection, h5::selection, p::selection, button::selection {
+	color: #259B97;
+}
+.section__component1 .section__img {
+	background-image: url("../Button-Logo_Img/explore/045Baichoisinging.png");
+}
+.section__component2 .section__img {
+	background-image: url("../Button-Logo_Img/explore/tuong-phat-chua-ong-nui-ivivu-14.png");
+}
+.section__component3 .section__img {
+	background-image: url("../Button-Logo_Img/explore/quy-nhon-twin-towers-1.png");
+}
+.section__component4 .section__img {
+	background-image: url("../Button-Logo_Img/explore/dong-da-festival.png");
+}
+.activity button {
+	position: absolute;
+	bottom: 0;
+	background-color: transparent;
+}
+.activity button {
+	outline: none;
+	border: none;
+}
+.activity a {
+	font-family: zonapro-bold;
+	font-size: 12px;
+	color: #259B97;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: none;
+}
+.activity a:hover {
+	color: #0E8682;
+	text-decoration: none;
+}
+.book-direct__img {
+	width: 55%;
+	background-image: url("../Button-Logo_Img/explore/pexels-photo-3212164.png");
+}

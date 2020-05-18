@@ -1,0 +1,35 @@
+button:focus {
+	outline: none;
+}
+h1::selection, h3::selection, h5::selection, p::selection, button::selection {
+	color: #259B97;
+}
+img {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+
+}
+/* end genaral settings*/
+.book-direct__img {
+	width: 55%;
+	height: 560px;
+	background: url("../Button-Logo_Img/dine/pexels-photo-3659862@2x.png") center no-repeat;
+	background-size: 100% 110%;
+}
+
+.section__component1 .section__img {
+	background-image: url("../Button-Logo_Img/dine/pexels-photo-67468@2x.png");
+
+}
+.section__component3 .section__img {
+	background-image: url("../Button-Logo_Img/dine/pexels-photo-1058434@2x.png");
+
+}
+.section__component2 .section__img {
+	background-image: url("../Button-Logo_Img/dine/pexels-photo-2736387@2x.png");
+
+}
+
+

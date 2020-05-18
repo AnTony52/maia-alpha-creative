@@ -1,0 +1,23 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e8682;
+}
+.maia__paragraph {
+    color: #fff !important;
+}
+
+.back-to-gallery {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+.back-to-gallery a {
+
+}
+.hvr-underline-from-left:before, .hvr-underline-from-left:hover:before  {
+    background-color: #fff;
+}
+.hvr-underline-from-left:hover {
+	color: #fff !important;
+}

@@ -6,90 +6,107 @@
     <link rel="shortcut icon" href="./Button-Logo_Img/Maia Resorts_Favicon.svg"/>
     <title>MAIA RESORT</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/maia_template.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/my-hover.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
 </head>
+
 <body>
-<div class="loading">
-    <div class="loading__logo">
-        <img src="./Button-Logo_Img/logo.svg" alt="" width="200">
+    <div class="loading">
+        <div class="loading__logo">
+            <img src="./Button-Logo_Img/logo.svg" alt="" width="200">
+        </div>
+        <div id="loading__wrap"></div>
     </div>
-    <div id="loading__wrap"></div>
-</div>
 <div id="container">
     <div class="beli-icon dflex">
         
-        <div class="beli-icon__en">
+        <div class="beli-icon__en wow" >
             <a href="#1">EN</a>
         </div>
         <div class="beli-icon__vi--wrapper">
-            <div class="beli-icon__vi">
+            <div class="beli-icon__vi wow" >
                 <a href="#2">VI</a>
             </div>
         </div>
-        <div class="beli-icon__icon">
+        <div class="beli-icon__icon wow" >
             <img src="./Button-Logo_Img/bellicon_1.gif" alt="">
         </div>
     </div>
-    <div class="inbox">
+    <div class="inbox wow fadeInRight" >
         <div class="inbox__wrapper">
             <i class="fas fa-comments"></i>
         </div>
     </div>
-    
-    <header>
-        <nav class="header__menu" id="header__menu">
-   
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <div class="responsive-header-logo"><a href="#34"><img src="./Button-Logo_Img/logo.svg" alt=""></a></div>
-            <div class="beli-icon__icon--mobile"><a href="#56"><img src="./Button-Logo_Img/bellicon_1.gif" alt=""></a></div>
+    <!-- HEADER carousel fade effect -->
 
-            <ul class="dflex header__menu__container">
-                <li class="responsive__close-menu" ><i class="fa fa-times text-light"></i></li>
-                <li class="menu__list"><a href="#"> dine</a></li>
-                <li class="menu__list"><a href="#"> save</a></li>
-                <li class="menu__list"><a href="#"> stay</a></li>
-                <li class="logo"><img src="./Button-Logo_Img/logo.svg" alt=""></li>
-                <li class="menu__list"><a href="#"> relax</a></li>
-                <li class="menu__list"><a href="#"> explore</a></li>
-                <li class="menu__list"><a href="#"> gallery</a></li>
-                <li class="responsive__en-vi">
-                    <div class="responsive-en"> <a href="#">EN</a> </div>
-                    <div class="responsive-vi"> <a href="#">VI</a> </div>
-                </li>
-            </ul>
-
-        </nav>
-
-
-        <div class="header__slogan">
-            <h3 class="">where dreams & emotions live</h3>
-            <div class="slogan__bar">
-                <div class="bar__top"></div>
-                <div class="bar__bottom"></div>
-            </div>
-
-            <div class="footer animate" id="line-scroll" style="display: block;">
-                <div class="line-scroll" id="lsl"> <span class="line active"></span> </div>
-            </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="navbar__menu">
+            <nav class="header__menu " id="header__menu">
+                <ul class="dflex header__menu__container">
+                    <li class="responsive__close-menu" ><i class="fa fa-times text-light"></i></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./dine.html"> dine</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./save.html"> save</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./stay.html"> stay</a></li>
+                    <li class="logo"> <a href="./index.html"><img src="./Button-Logo_Img/Logo symbol white.svg" alt=""></a> </li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./relax.html"> relax</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./explore.html"> explore</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./gallery.html"> gallery</a></li>
+                </ul>
+            </nav>
+            <!--  -->
+            <nav class="header__menu header__menu--absolute wow fadeInDown">
+                <ul class="dflex header__menu__container">
+                    <li class="menu__list hvr-underline-from-center"><a href="./dine.html"> dine</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./save.html"> save</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./stay.html"> stay</a></li>
+                    <li class="logo"> <a href="./index.html"><img src="./Button-Logo_Img/logo.svg" alt="" style="width: 6.5rem;"></a> </li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./relax.html"> relax</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./explore.html"> explore</a></li>
+                    <li class="menu__list hvr-underline-from-center"><a href="./gallery.html"> gallery</a></li>
+                </ul>
+            </nav>
+            <!--  -->
         </div>
-        <div class="slide1"></div>
-        <div class="slide2"></div>
-        <div class="slide3"></div>
-    </header>
+        <div class="shadow"></div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./Button-Logo_Img/Img Banner/2Br-03.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./Button-Logo_Img/shutterstock_1380225491.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./Button-Logo_Img/Img Banner/Restaurant-02.jpg" alt="Third slide">
+        </div>
+
+      </div>
+      
+      <!--  -->
+            <div class="header__slogan">
+                <h3 class=" wow fadeInUp" >where dreams & emotions live</h3>
+                <div class=" animate" id="line-scroll" style="display: block;">
+                    <div class="line-scroll" id="lsl"> <span class="line active"></span> </div>
+                </div>
+            </div>
+            <!--  -->
+    </div>
+    <!-- END HEADER Carousel Fade Effect -->
+    
     <div>
         <div class="welcome my-element"
         data-paroller-direction="vertical"
-        data-paroller-factor="0.5">
-            <div class="welcome__icon"><img src="./Button-Logo_Img/icon-01.svg" alt=""></div>
-            <h1 class="welcome__title" >welcome to quy nhon</h1>
-            <div class="welcome__context">
-                <p>When we at Maia think of “getting away from it all”, Maia Resort Quy Nhon is the kind of place we imagine. With private pools and secluded gardens outside each and every one of our spacious thatched villas, plus stunning beach and riverfront views, mouth-watering dining options, a “breakfast anywhere, anytime” concept, and Maia’s unique “all-spa inclusive” service, it’s the ideal place to disconnect, switch off, and put the rest of the world  on hold for a few days or weeks at a time.
-                </p>
+        data-paroller-factor="0.2">
+
+            <div class="">
+                <div class="welcome__icon wow fadeInUp"><img src="./Button-Logo_Img/icon-01.svg" alt=""></div>
+                <h1 class="welcome__title wow fadeInUp" >welcome to quy nhon</h1>
+                <div class="welcome__context wow fadeInUp">
+                    <p class="maia__paragraph">Surrounded by mountains, forests, rocky outcrops and gorgeous beaches, the coastal city of Quy Nhon is a jewel in the crown of Vietnam’s south central coast. Located just a short drive from Phu Cat Airport, the prosperous port city is a recent addition to Vietnam’s must&#8209;visit destinations, boasting an expansive, beach&#8209;lined shore and wide, tree&#8209;lined boulevards that have made it popular with local tourists. The surrounding region is dotted with little coves, fishing villages and an abundance of fresh seafood, making it the ideal location for exploring Binh Dinh province.</p>
+                </div>
             </div>
         </div>
         <!-- end welcome -->
@@ -97,23 +114,21 @@
         <div class="about">
             <h1 class="left__dummy__title">MAIA RESORT QUY NHON</h1>
             <div class="about__left">
-                <h1 class="left__title">MAIA RESORT QUY NHON</h1>
-                <div class="left__paralax my-element"
+                <h1 class="left__title wow fadeInUp">MAIA RESORT QUY NHON</h1>
+                <div class="left__paralax my-element wow fadeInUp"
                 data-paroller-direction="vertical"
-                data-paroller-factor="0.1"></div>
+                data-paroller-factor="0.1">
+                
             </div>
-            <div class="about__right">
-                <div class="right__img">
-                    <img src="./Button-Logo_Img/Mask Group 1.png" alt="">
+            </div>
+            <div class="about__right ">
+                <div class="right__img my-element wow fadeInUp"
+                data-paroller-direction="vertical"
+                data-paroller-factor="0.1">
+                
                 </div>
-                <div class="right__context">
-                    <p>Vietnam’s largest island sits in the Gulf of Thailand
-                         off the southern coast of Vietnam. With idyllic white
-                          beaches, lush tropical forests, rich local culture and 
-                          luxury resorts, the island is a 
-                          haven for those seeking a mix 
-                          of natural beauty
-                         and Vietnamese charm in an environment that caters for all. </p>
+                <div class="right__context wow fadeInUp">
+                    <p class="maia__paragraph">Nestled on an idyllic beachside haven, Maia Resort Quy Nhon is a tropical paradise of landscaped gardens and golden sands. Fashioned with the foodie in mind, the resort takes Fusion’s down-to-earth hospitality and signature wellness vibe with a liberal sprinkling of delicious delights, taking you on culinary adventures that capture the essences of Quy Nhon’s rich cultural heritage. Stylish private pool villas offer the best of inside and outside living space with all the comforts and conveniences of home. </p>
                 </div>
             </div>
         </div>
@@ -121,6 +136,9 @@
         <div class="distance">
             <div class="distance__left">
                 <img src="./Button-Logo_Img/Map.svg" alt="">
+                <div class="gg-map-img">
+                    <a href="maps.google.com"><img src="./Button-Logo_Img/google-maps-vector-16.png" alt=""></a> 
+                </div>
             </div>
             <div class="distance__right">
                 <h1 class="distance__right__title">from resort to</h1>
@@ -190,8 +208,8 @@
         </div>
         <!-- end distance -->
         <div class="stay-connected">
-            <h1 class="stay-connected__para">Stay connected</h1>
-            <div class="stay-connected__contact">We're on Instagram: <span>#maiaresortquynhon</span></div>
+            <h1 class="stay-connected__para wow fadeInUp">Stay connected</h1>
+            <div class="stay-connected__contact wow fadeInUp">We're on Instagram: <span>#maiaresortquynhon</span></div>
         </div>
         <!-- end stay connected -->
         <div class="gallerry">
@@ -296,28 +314,31 @@
             </div>
             <div class="contact__info">
                 <h5 class="contact__info__title">MAIA RESORT QUY NHON</h5>
-                <span>A part of mark No. 1, Nhon Ly - Cat Tien 
+                <p>
+                    <span>A part of mark No. 1, Nhon Ly - Cat Tien 
                     Beach Resort, Nhon Hoi Economic Zone, Cat Tien Ward,
                      Phu Cat District, Binh Dinh Province, Vietnam </span> <br>
-                <span> <span class="text-bold">T.</span>  +84 297 3690 000 </span> <br>
-                <span> <span class="text-bold">E.</span>  reservations@maiaresorts.com</span>
+                    <span> <span class="text-bold">T.</span>  +84 297 3690 000 </span> <br>
+                    <span> <span class="text-bold">E.</span>  reservations@maiaresorts.com</span>
+                </p>
+                
             </div>
             <div class="contact__form">
-                <div class="contact__form__title">sign up for newsletter</div>
-                <div class="contact__form__subs">Subscribe newsletter to receive offers</div>
+                <h5 class="contact__form__title">sign up for newsletter</h5>
+                <p class="contact__form__subs">Subscribe newsletter to receive offers</p>
                 <form>
                     <input type="text" placeholder="Your email address">
                     <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                 </form>
             </div>
             <div class="contact__follow">
-                <p class="contact__follow__title">follow us</p>
-                <div class="contact__follow__context">Social media channels</div>
+                <h5 class="contact__follow__title">follow us</h5>
+                <p class="contact__follow__context">Social media channels</p>
                 <ul class="contact__follow__icons">
                     <li class=""><a href="#" class="fab fa-tripadvisor"></a></li>
-                    <li class=""><a href="#" class="fab fa-facebook-square"></a></li>
-                    <li class=""><a href="#" class="fab fa-instagram"></a></li>
-                    <li class=""><a href="#" class="fab fa-youtube"></a></li>
+                    <li class=""><a href="https://www.facebook.com/maiaresortquynhon.official/" class="fab fa-facebook-square"></a></li>
+                    <li class=""><a href="https://www.instagram.com/maiaresortquynhon/" class="fab fa-instagram"></a></li>
+                    <li class=""><a href="https://www.youtube.com/channel/UC5iXwi8aX-x256XtjDNosxQ" class="fab fa-youtube"></a></li>
                 </ul>
             </div>
         </div>
@@ -325,14 +346,14 @@
     <footer>
         <div class="footer__logos">
             <div class="dflex logos__container">
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 529.svg" alt=""></div>
-                <div class="logos__fusion-border" style="width: 0px; height: 40px;background-color: #ccc;border-right: 1px solid #ccc;"></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 382.svg" alt=""></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 159.svg" alt=""></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 380.svg" alt=""></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 166.svg" alt=""></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 524.svg" alt=""></div>
-                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 528.svg" alt=""></div>
+                <div class="logos__item"><a href="https://fusionhotelgroup.com/"> <img src="./Button-Logo_Img/Logos/Group 529.svg" alt=""></a></div>
+                <div class="logos__fusion-border" style="width: 0px; height: 30px;background-color: #ccc;border-right: 1px solid #ccc;"></div>
+                <div class="logos__item"><a href="https://fusionresorts.com/"> <img src="./Button-Logo_Img/Logos/Group 382.svg" alt=""></a></div>
+                <div class="logos__item"><a href="#"> <img src="./Button-Logo_Img/Logos/Group 159.svg" alt=""></a></div>
+                <div class="logos__item"><a href="#"> <img src="./Button-Logo_Img/Logos/Group 380.svg" alt=""></a></div>
+                <div class="logos__item"><a href="#"> <img src="./Button-Logo_Img/Logos/Group 166.svg" alt=""></a></div>
+                <div class="logos__item"><a href="#"> <img src="./Button-Logo_Img/Logos/Group 524.svg" alt=""></a></div>
+                <div class="logos__item"><a href="#"> <img src="./Button-Logo_Img/Logos/Group 528.svg" alt=""></a></div>
             </div>
             
         </div>
@@ -343,7 +364,7 @@
                     Địa chỉ: Lô L7-03+04, Tầng L7, Tòa nhà Vincom Center
                      Đồng Khởi. Số 72 Lê Thánh Tôn và số 45A Lý Tự Trọng,
                       Phường Bến Nghé, Quận 1, TP.HCM     <span style="font-family: Zona-Regular;">-  Hotline: (028) 39101000</span>      
-                      <span class="info__2__email">  - Email: info@fusionhotelgroup.com</span>
+                      <span class="info__2__email">  - Email: info@fusionhotelgroup.com</span> 
                 </p>
                 <p class="info__2__certificate">
                     Giấy CNĐKDN: 0313903779 - Ngày cấp: 09/07/2016.
@@ -357,15 +378,15 @@
         </div>
         <div class="footer__menu">
             <ul class="">
-                <li> <a href="#"> CAREERS</a></li>
-                <li> <a href="#"> OUR STORY</a></li>
-                <li> <a href="#"> CONTACT US</a></li>
-                <li> <a href="#"> BLOGS</a></li>
-                <li> <a href="#"> PRIVACY POLICY</a></li>
-                <li> <a href="#"> ONLINE PAYMENT POLICY</a></li>
+                <li> <a href="https://fusionhotelgroup.com/career/"> CAREERS</a></li>
+                <li> <a href="https://fusionhotelgroup.com/our-story/"> OUR STORY</a></li>
+                <li> <a href="./contact.html"> CONTACT US</a></li>
+                <li> <a href="https://fusionhotelgroup.com/blogs/"> BLOGS</a></li>
+                <li> <a href="https://phuquoc.fusionresorts.com/vi/chinh-sach-bao-mat/"> PRIVACY POLICY</a></li>
+                <li> <a href="https://phuquoc.fusionresorts.com/vi/phuong-thuc-thanh-toan/"> ONLINE PAYMENT POLICY</a></li>
                 <li> <a href="#"> TERM & CONDITION </a></li>
             </ul>
-            <p class=""><a href="#">SERENITY HOLDING CO., LTD © 2020</a> </p>
+            <p class=""><a href="#">SERENITY CO., LTD</a> </p>
         </div>
 
 
@@ -380,7 +401,11 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
-<script src="./css/style.js"></script>
-<script src="./css/loading.js"></script>
-<script src="./css/menuEffect.js"></script>
+<script src="./js/style.js"></script>
+<script src="./js/loading.js"></script>
+<script src="./js/menuEffect.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </html>

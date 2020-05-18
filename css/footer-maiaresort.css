@@ -1,0 +1,530 @@
+@font-face {
+    font-family: Prata-Regular;
+    src: url('./Font Test/Prata-Regular.ttf');
+  }
+@font-face {
+    font-family: Zona-Regular;
+    src: url('./Font Test/Zona Pro Fonts/ZonaPro-Regular.otf');
+}
+@font-face {
+    font-family: zonapro-bold;
+    src: url('./Font Test/Zona Pro Fonts/ZonaPro-Bold.otf');
+}  
+/* reset css */
+* {
+    font-family: Prata-Regular, Zona-Regular, zonapro-bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.dflex {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    -webkit-flex-wrap: wrap !important; 
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  .text-bold {
+      font-family: zonapro-bold;
+      font-weight: bolder;
+  }
+  /*  */
+
+  .contact {
+    background-color: #0E8682;
+    display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+    padding: 55px 20vw 70px 14.82vw;
+    color: #F7F7F7;
+    justify-content: space-between;-webkit-justify-content: space-between; 
+    align-items: flex-start;
+    padding-bottom: 3.2rem;
+}
+.contact__logo {
+    text-align: left;
+    width: 11%;
+}
+.contact__logo img {
+    width: 6.5rem;
+}
+.contact__info {
+    padding-left: 2rem;
+    width: 32%;
+    font-size: 12.6px;
+    font-family: Zona-Regular;
+    cursor: context-menu;
+}
+.contact__info__title {
+    font-family: zonapro-bold;
+    font-size: 12.1px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+.contact__info span {
+    font-family: Zona-Regular;
+    line-height: 1.3rem;
+    margin-top: 8px;
+}
+.contact__info span::selection, h5::selection, div::selection, p::selection  {
+    color: #4A4A4A;
+    background-color: transparent;
+}
+
+.contact__form {
+    width: 30%;
+    padding-left: 1rem;
+}
+.contact__form__title {
+    font-family: zonapro-bold;
+    font-size: 12.1px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    cursor: context-menu;
+}
+.contact__form__subs {
+    margin-top: 14px;
+    font-family: Zona-Regular;
+    font-size: 12.8px;
+    cursor: context-menu; 
+    margin-bottom: 75px;
+}
+.contact__form form {
+    /* align-items: flex-end; */
+}
+.contact__form form input {
+    background-color: #0E8682;
+    border: none;
+    border-bottom: 1px solid #7cc3c1;
+    color: #f7f7f7;
+    position: relative;
+    outline: none;
+    width: 90%;
+    font-size: 16px;
+    padding-right: 1rem;
+}
+.contact__form form input::placeholder{
+    color: #7cc3c1;
+    font-size: 12.8px;
+    font-family: Zona-Regular;
+}
+.contact__form form input::placeholder::selection {
+    color: #fff;
+    background-color: #4A4A4A;
+}
+::-ms-input-placeholder {
+    color: #7cc3c1;
+    font-size: 12.8px;
+    font-family: Zona-Regular;
+}
+::-ms-input-placeholder::selection {
+    color: #fff;
+    background-color: #4A4A4A;
+}
+.contact__form form button {
+    background-color: #0E8682;
+    border: none;
+    border-bottom: 1px solid #7cc3c1;
+    color: #f7f7f7;
+    position: relative;
+    left: -0.3rem;
+    outline: none;
+    font-size: 17px;
+}
+.contact__follow {
+    text-align: right;
+    width: 22%;
+}
+.contact__follow__title {
+    text-transform: uppercase;
+    font-family: zonapro-bold;
+    font-size: 12.1px;
+    margin-bottom: .9rem;
+    font-weight: 600;
+    cursor: context-menu;
+    letter-spacing: 1.5px;
+}
+.contact__follow__context {
+    font-family: Zona-Regular;
+    font-size: 12.8px;
+    cursor: context-menu;
+}
+.contact__follow__icons {
+    margin-top: 80px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.contact__follow__icons li {
+    margin-left: 1.3rem;
+    list-style-type: none;
+    display: inline-block;
+}
+.contact__follow__icons a {
+    font-size: 19.2px;
+    text-decoration: none;
+    color: #fff;
+}
+.contact__follow__icons a:hover {
+    text-decoration: none;
+    color: #F4F4F4;
+}
+/* end contact */
+footer {
+    cursor: context-menu;
+    background-image: url('../Button-Logo_Img/pattern_footer (2).svg');
+    background-color: #f2f2f2;
+    color: #4A4A4A;
+    width: 100%;
+    padding-top: 35px;
+    padding-right: 0;
+    padding-left: 25.2vw;
+    padding-right: 20vw;
+    
+}
+footer p::selection {
+    color: #0E8682;
+    background-color: transparent;
+}
+footer span::selection {
+    color: #0E8682;
+    background-color: transparent;
+}
+footer a::selection {
+    color: #0E8682;
+    background-color: transparent;
+}
+.footer__logos .logos__container{
+    display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+    justify-content: space-between;-webkit-justify-content: space-between; 
+    align-items: flex-end;-webkit-align-items: flex-end; 
+}
+.footer__logos .logos__item {
+    padding: 0rem;
+    position: relative;
+}
+.logos__item:first-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.logos__item img {
+    height:30px;
+    bottom: 0px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+}
+.logo__item img::selection {
+    color: #0E8682;
+    background-color: #0E8682;
+    
+}
+.logos__item:first-child img {
+    height: 30px;
+}
+
+.footer__infos {
+    font-size: 12.8px;
+    color: #4A4A4A;
+    justify-content: space-between;-webkit-justify-content: space-between; 
+    padding: 35px 0;
+    margin-top: 35px;
+    border-top: 1px solid #cccccc;
+}
+.info__1 {
+    width: 78%;
+}
+.info__1__title {
+    font-family: Zona-Regular;
+    color: #4A4A4A;
+    font-weight: 1000;
+}
+.info__1__address {
+    font-family: Zona-Regular;
+    font-size: 11px;
+    line-height: 1.2rem;
+    margin-bottom: 0;
+}
+.info__2 {
+    margin-left: 4rem;
+    font-size: 11px;
+
+}
+.info__2__email {
+    font-family: Zona-Regular;
+    font-size: 11px;
+    line-height: 1.2rem;
+
+}
+.info__2__certificate {
+    font-family: Zona-Regular;
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 1.2rem;
+
+}
+.info__sale-policy {
+    text-align: center;
+    align-self: center;
+    width: 19%;
+    /* padding-top: 1rem; */
+    /* font-size: 11px; */
+}
+
+.info__sale-policy img {
+    width: 100%;
+}
+.info__sale-policy img::selection {
+    color: #0E8682;
+}
+.footer__menu {
+    display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.footer__menu ul {
+    display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; 
+    justify-content: space-between;-webkit-justify-content: space-between; 
+    flex-wrap: wrap;
+    list-style-type: none;   
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 1.5rem 0;
+    margin-bottom: 20px;
+    
+}
+.footer__menu li {
+    color: #4A4A4A;
+    
+}
+.footer__menu a {
+    font-family: Zona-Regular;
+    font-size: 10.4px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #4A4A4A;
+    letter-spacing: .05rem;
+}
+.footer__menu a:hover {
+    color: #0E8682;
+    text-decoration: none;
+}
+.footer__menu p {
+    text-align: right;
+    font-family: Zona-Regular, Prata-Regular;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.footer__menu p a:hover {
+    color: #4a4a4a;
+    text-decoration: none;
+    cursor: context-menu;
+}
+
+/* RESPONSIVE */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    .contact__logo, .contact__info, .contact__form, .contact__follow {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 14px;
+    }
+    .contact__logo {
+        margin-bottom: 2rem;
+    }
+    .contact__logo img {
+        width: 125px;
+    }
+    .contact__info, .contact__form, .contact__follow {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+    .contact__info {
+        margin: 0 auto;
+    }
+    .contact__info__title {
+        font-size: 14px;
+    }
+    .contact__form__title {
+        margin-top: 2rem;
+        font-size: 14px;
+    }
+    .contact__form__subs {
+        font-size: 14px;
+    }
+    .contact__form form input {
+        padding-right: 1rem !important;
+    }
+    .contact__follow {
+        padding-bottom: 0;
+    }
+    .contact__follow__title {
+        font-size: 14px;
+        margin-top: 2rem;
+    }
+    .contact__follow__context {
+        font-size: 14px;
+    }
+    .contact__follow__icons {
+        margin-top: 30px;
+    }
+    .contact__follow__icons ul {
+        width: 100%;
+    }
+    .contact__follow__icons li {
+        margin: 0 .5rem;
+    }
+    .contact__follow__icons li a{
+        font-size: 30px;
+        margin: 0 6px;
+    }
+    /* end contact */
+    footer {
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+        padding-top: 54px;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .logos__item:first-child img {
+        padding-right: 0;
+    }
+    .logos__item:not(:first-child) {
+        width: 50%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .logos__item:not(:first-child) img {
+        width: 80px;
+    }
+    .logos__item:first-child {
+        width: 100%;
+        border-right: none;
+        text-align: center;
+    }
+    .logos__item:first-child img {
+        width: 60px;
+    }
+    .logos__fusion-border {
+        display: none;
+    }
+    .footer__infos {
+        border-top: none;
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .info__1 {
+        width: 100%;
+        text-align: center;
+
+    }
+    .info__sale-policy {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .info__sale-policy img {
+        width: 50%;
+
+    }
+    /* end info */
+    footer {
+        padding-bottom: 0rem;
+    }
+    .footer__menu {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .footer__menu ul {
+        border: none;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+    .footer__menu li {
+        margin: .5rem;
+    }
+    .footer__menu p {
+        text-align: center;
+    }
+    
+    /*end footer menu  */
+}
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and 768px) */
+@media (max-width: 768px) and (min-width: 600px) {
+    .contact {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contact__logo, .contact__follow {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .contact__info, .contact__form {
+        width: 50%;
+    }
+    .contact__follow {
+        margin-top: 2rem;
+        padding-right: 0;
+    }
+    .contact__follow__icons {
+        margin-top: 1rem;
+    }
+    footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media (max-width: 992px) and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

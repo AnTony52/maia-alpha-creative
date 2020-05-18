@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MAIA RESORT</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+</head>
+<body>
+<div class="loading">
+    <div class="loading__logo">
+        <img src="./Button-Logo_Img/logo.svg" alt="" width="200">
+    </div>
+    <div id="loading__wrap"></div>
+</div>
+<div id="container">
+    <div class="beli-icon dflex">
+        
+        <div class="beli-icon__en">
+            <a href="#1">EN</a>
+        </div>
+        <div class="beli-icon__vi--wrapper">
+            <div class="beli-icon__vi">
+                <a href="#2">VI</a>
+            </div>
+        </div>
+        <div class="beli-icon__icon">
+            <img src="./Button-Logo_Img/bellicon_1.gif" alt="">
+        </div>
+    </div>
+    <div class="inbox">
+        <div class="inbox__wrapper">
+            <i class="fas fa-comments"></i>
+        </div>
+    </div>
+    
+    <header>
+        <nav class="header__menu" id="header__menu">
+   
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="responsive-header-logo"><a href="#34"><img src="./Button-Logo_Img/logo.svg" alt=""></a></div>
+            <div class="beli-icon__icon--mobile"><a href="#56"><img src="./Button-Logo_Img/bellicon_1.gif" alt=""></a></div>
+
+            <ul class="dflex header__menu__container">
+                <li class="responsive__close-menu" ><i class="fa fa-times text-light"></i></li>
+                <li class="menu__list"><a href="#"> dine</a></li>
+                <li class="menu__list"><a href="#"> save</a></li>
+                <li class="menu__list"><a href="#"> stay</a></li>
+                <li class="logo"><img src="./Button-Logo_Img/logo.svg" alt=""></li>
+                <li class="menu__list"><a href="#"> relax</a></li>
+                <li class="menu__list"><a href="#"> explore</a></li>
+                <li class="menu__list"><a href="#"> gallery</a></li>
+                <li class="responsive__en-vi">
+                    <div class="responsive-en"> <a href="#">EN</a> </div>
+                    <div class="responsive-vi"> <a href="#">VI</a> </div>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <div class="header__slogan">
+            <h3 class="">where dreams & emotions live</h3>
+            <div class="slogan__bar">
+                <div class="bar__top"></div>
+                <div class="bar__bottom"></div>
+            </div>
+
+            <div class="footer animate" id="line-scroll" style="display: block;">
+                <div class="line-scroll" id="lsl"> <span class="line active"></span> </div>
+            </div>
+        </div>
+        <div class="slide1"></div>
+        <div class="slide2"></div>
+        <div class="slide3"></div>
+    </header>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+<script src="./js/style.js"></script>
+<script src="./js/loading.js"></script>
+<script src="./js/menuEffect.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</html>

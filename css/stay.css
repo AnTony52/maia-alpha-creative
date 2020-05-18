@@ -1,0 +1,77 @@
+img {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+     -moz-user-select: none;     /* Firefox all */
+     -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */   
+}
+h1::selection, h3::selection, h5::selection, p::selection, button::selection {
+	color: #259B97;
+}
+*/
+.section__content {
+	width: 44.5% !important;
+	padding-right: 13vw;
+	position: relative;
+}
+
+.section__content li {
+	font-size: 13px;
+	line-height: 2;
+	font-family: Zona-Regular;
+	color: #4A4A4A;
+	text-align: left;
+	list-style-type: none;
+	margin-bottom: 1rem;
+
+}
+.section__information li img {
+	margin-right: 20px;
+	width: 25px;
+	vertical-align: text-bottom;
+}
+.section__component1 .section__img {
+	background: url("../Button-Logo_Img/stay/PHRASE 2- 3 BEDROOMS-LIVING ROOM.png");
+}
+.section__component2 .section__img {
+	background: url("../Button-Logo_Img/stay/PHRASE 2- 3 BEDROOMS-KID ROOM.png");
+}
+.section__component3 .section__img {
+	background: url("../Button-Logo_Img/stay/PHRASE 2- 3 BEDROOMS-MASTER BEDROOM.png");
+}
+.section__component4 .section__img {
+	background: url("../Button-Logo_Img/stay/PHRASE 2- 3 BEDROOMS-BATHROOM 01.png");
+}
+.discover-bottom {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0 !important;
+}
+
+
+.book-direct__img {
+	width: 55%;
+	height: 560px;
+	background: url("../Button-Logo_Img/stay/PHRASE 2- 3 BEDROOMS-BATHROOM@2x.png") center no-repeat;
+	background-size: 100% 110%;
+}
+.discover-more {
+	margin-bottom: 3rem;
+}
+.discover-more button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+.discover-more button a {
+	color: #259B97;
+	font-family: zonapro-bold;
+	font-size: 12px;
+	transition: .1s ease-in;
+	text-transform: uppercase;
+}
+
+.discover-more button a:hover {
+	color: #0E8682;
+	border-bottom: none;
+	text-decoration: none;
+}

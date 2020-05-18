@@ -1,6 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .loading__logo img {
+        width: 33vw;
+    }
     .beli-icon__vi--wrapper {
         display: none;
     }
@@ -33,18 +35,13 @@
         display: none;
     }
     /* #check, */
-     .checkbtn, .responsive-header-logo, .beli-icon__icon--mobile {
+    .checkbtn, .responsive-header-logo, .beli-icon__icon--mobile {
         display: block;
-    }
-    #check {
-
     }
     .checkbtn {
         font-size: 30px;
         color: #fff;
         float: left;
-        /* line-height: 80px; */
-        /* margin-left: 0 auto; */
         cursor: pointer;
         text-align: center;
         width: 20%;
@@ -52,7 +49,6 @@
     .responsive-header-logo {
         width: 60%;
         text-align: center;
-    
         justify-self: center;
         padding: 1rem;
         border-left: 1px solid white;
@@ -73,6 +69,9 @@
     }
     .beli-icon__icon--mobile img {
         width: 5.5rem;
+    }
+    .header__menu--cover {
+        display: none;
     }
     .header__menu ul {
         padding-left: 0;
@@ -159,6 +158,8 @@
         display: block !important;
         order: 4;
         padding: 0 2rem;
+        width: 18rem;
+        line-height: 1.5;
     }
     .left__paralax {
         background-image: url('../Button-Logo_Img/PHRASE 2- 3 BEDROOMS-LIVING ROOM.png');
@@ -174,9 +175,10 @@
         margin-top: 2rem;
         margin-left: 0;
         padding: 1rem 2rem;
+
     }
     .right__img {
-        width: 60%;
+        /* width: 60%; */
     }
     .right__context p {
         font-size: 1rem;
@@ -192,6 +194,7 @@
     }
     .distance__right {
         padding: 2rem;
+        width: 100%;
     }
     .component__title {
         font-size: .7rem;
@@ -285,8 +288,13 @@
     .logos__item:first-child img {
         width: 60px;
     }
+    .logos__fusion-border {
+        display: none;
+    }
     .footer__infos {
         border-top: none;
+        padding-bottom: 0;
+        padding-top: 0;
     }
     .info__1 {
         width: 100%;
@@ -300,18 +308,23 @@
         width: 50%;
 
     }
+    .info__1__address {
+        margin-bottom: 20px;
+    }
     /* end info */
     footer {
         padding-bottom: 0rem;
     }
     .footer__menu {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-bottom: 0;
     }
     .footer__menu ul {
         border: none;
         justify-content: center;
         padding-top: 1rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     .footer__menu li {
         margin: .5rem;
@@ -401,8 +414,24 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (max-width: 1196px) and (min-width: 992px) {
+    .contact {
     
+        /*display: -webkit-box !important;display: -moz-box !important;display: -ms-flexbox !important;display: -webkit-flex !important;display: flex !important;flex-wrap: wrap !important;-webkit-flex-wrap: wrap !important; */
+        /*justify-content: space-between;-webkit-justify-content: space-between; */
+        /*align-items: flex-start;*/
+
+        /*background-color: #0E8682;*/
+        padding: 55px 10vw 70px 10vw;
+        /*color: #F7F7F7;*/
+        
+        /*padding-bottom: 3.2rem;*/
+    }
+
+    footer {
+        padding-left: calc(10vw + 104px + 2rem);
+        padding-right: 10vw;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

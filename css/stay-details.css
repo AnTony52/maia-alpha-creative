@@ -1,0 +1,78 @@
+/* html  {
+
+    width: %;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+} */
+.stay__details p {
+    margin: 0 10px;
+
+    font-size: 12px !important;
+}
+.section__offers__icon {
+    margin-bottom: 40px;
+}
+
+
+.section__offers__content {
+    margin-top: 40px;
+}
+.stay__features h1 {
+    font-family: Prata-Regular;
+    margin-bottom: 40px;
+}
+.stay__features .row {
+    padding-left: 19.8vw;
+}
+.stay__features img {
+    width: 31px;
+
+    margin-right: 20px;
+
+    vertical-align: baseline;
+}
+.stay__features .row div {
+    margin-bottom: 10px; 
+}
+.stay__features > div {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    justify-content: space-between;
+    padding: 0 20vw;
+}
+.pick__container {
+    margin-top: 80px;
+    padding: 0 16vw;
+}
+
+.prev-next {
+    padding: 4rem 20vw;
+}
+.prev-next button {
+    border: none;
+    background: transparent;
+    color: #4a4a4a;
+}
+
+.prev-img img, .next-img img {
+    width: 200px;
+}
+.prev__title, .next__title {
+    width: 10vw;
+
+    font-family: Prata-Regular;
+    font-size: 20px !important;
+
+}
+.prev__title:hover, .next__title:hover {
+    cursor: context-menu;
+}
+.prev-btn, .next-btn {
+    font-family: Zona-Regular;
+    font-size: 14px;
+}

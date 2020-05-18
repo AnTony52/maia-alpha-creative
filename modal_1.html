@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Button-Logo_Img/Maia Resorts_Favicon.svg"/>
+    <title>BOOK NOW</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/dine.css">
+    <link rel="stylesheet" type="text/css" href="./css/my-hover.css">
+    <link rel="stylesheet" type="text/css" href="./css/maia_template.css">
+    <link rel="stylesheet" type="text/css" href="./css/modal_1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Button
+</button>
+
+<!-- Modal -->
+<div class="modal fade rounded-none" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered rounded-none" role="document">
+    <div class="modal-content rounded-none">
+        
+        <div class="modal-body">
+          <div class="maia__form ">
+              <h1 class="text-center form__title">BOOK A TABLE</h1>
+              <div class="pick__container">
+                  <div class="text-center pick__section">
+                    <h3 class="">day</h3>
+                    <input type="text" name="">
+                  </div>
+                  <div class="__border">
+                      
+                  </div>
+                  <div class="text-center pick__section">
+                    <h3>time</h3>
+                    <input type="text" name="">
+                  </div>
+                  <div class="__border">
+                      
+                  </div>
+                  <div class="text-center pick__section guest">
+                    <h3>guest</h3>
+                    <div>
+                        <button class="guest__minus">-</button>
+                        
+                        <span class="guest__number">0</span>
+                        <button class="guest__plus">+</button>
+                    </div>
+                  </div>
+                  <div class="__border">
+                      
+                  </div>
+                  <div class="text-center pick__section children">
+                    <h3>children</h3>
+                    <button class="children__minus">-</button>
+                    
+                    <span class="children__number">0</span>
+                    <button class="children__plus">+</button>
+                  </div>
+                  <div class="__border">
+                      
+                  </div>
+                  <div class="text-center pick__section baby">
+                    <h3>baby</h3>
+                    <button class="baby__minus">-</button>
+                    <span class="baby__number">0</span>
+                    
+                    <button class="baby__plus">+</button>
+                  </div>
+              </div>
+              <div class="form__input">
+                  <form>
+                      <input type="text" name="" placeholder="YOUR NAME">
+                      <input type="email" name="" placeholder="EMAIL">
+                      <input type="tel" name="" placeholder="YOUR PHONE">
+                      <button class="book-now" data-toggle="modal" data-target="#exampleModalCenter2"  data-dismiss="modal">book now</button>
+
+                  </form>
+              </div>
+          </div>
+          <p class="text-center contact-info">HOTLINE: <span>+84 297 3690 000</span> <span class="mx-3">|</span> HOURS: <span>07:00 - 22:00</span> </p>
+        </div>
+        
+    </div>
+
+  </div>
+</div>
+<!-- end modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        
+        <div class="modal-body">
+          <div class="maia__form">
+              <h1 class="text-center form__title modal-2__title">AWESOME, <br> WE GOT YOUR RESERVATION!</h1>
+              <div class="text-center my-5">
+                <h5>RESERVATION INFORMATION</h5>
+                <div class="res-info border-bottom mx-5 d-flex justify-content-between">
+                  <div class="d-inline-block maia__paragraph">Date:<span class="info__date"></span></div>
+                  <div class="d-inline-block maia__paragraph">Time:<span class="info__time"></span></div>
+                  <div class="d-inline-block maia__paragraph">Party Size:<span class="info__size"></span></div>
+
+                </div>
+              </div>
+              <div class="text-center">
+                <p class="maia__paragraph">Our team will contact you back for a confirmation. <br> We look forward to welcoming you soon at Ad Hoc Restaurant!</p>
+              </div>
+          </div>
+            <p class="text-center contact-info">HOTLINE: <span>+84 297 3690 000</span> <span class="mx-3">|</span> HOURS: <span>07:00 - 22:00</span> </p>
+        </div>
+        
+    </div>
+
+  </div>
+</div>
+<!-- end 2nd modal -->
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/paroller.js/dist/jquery.paroller.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+<script src="./js/style.js"></script>
+<script src="./js/modal.js"></script>
+</html>

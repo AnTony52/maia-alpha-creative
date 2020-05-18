@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Button-Logo_Img/Maia Resorts_Favicon.svg"/>
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/my-hover.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
+    <link rel="stylesheet" type="text/css" href="./css/gallery.css">
+</head>
+
+<body>
+    <!-- <div class="loading">
+        <div class="loading__logo">
+            <img src="./Button-Logo_Img/logo.svg" alt="" width="200">
+        </div>
+        <div id="loading__wrap"></div>
+    </div> -->
+<div id="container">
+    <div class="beli-icon dflex ">
+        
+        <div class="beli-icon__en ">
+            <a href="#1">EN</a>
+        </div>
+        <div class="beli-icon__vi--wrapper ">
+            <div class="beli-icon__vi">
+                <a href="#2">VI</a>
+            </div>
+        </div>
+        <div class="beli-icon__icon ">
+            <img src="./Button-Logo_Img/bellicon_1.gif" alt="">
+        </div>
+    </div>
+    <div class="inbox ">
+        <div class="inbox__wrapper">
+            <i class="fas fa-comments"></i>
+        </div>
+    </div>
+    
+    <!-- HEADER carousel fade effect -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="navbar__menu">
+              <nav class="header__menu " id="header__menu">
+                  <ul class="dflex header__menu__container">
+                      <li class="responsive__close-menu" ><i class="fa fa-times text-light"></i></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./dine.html"> dine</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./save.html"> save</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./stay.html"> stay</a></li>
+                      <li class="logo"> <a href="./index.html"><img src="./Button-Logo_Img/Logo symbol white.svg" alt=""></a> </li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./relax.html"> relax</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./explore.html"> explore</a></li>
+                      <li class="menu__list hvr-underline-from-center li--active"><a href="./gallery.html"> gallery</a></li>
+                  </ul>
+              </nav>
+              <!--  -->
+              <nav class="header__menu header__menu--absolute wow fadeInDown" >
+                  <ul class="dflex header__menu__container">
+                      <li class="menu__list hvr-underline-from-center"><a href="./dine.html"> dine</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./save.html"> save</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./stay.html"> stay</a></li>
+                      <li class="logo"> <a href="./index.html"><img src="./Button-Logo_Img/logo.svg" alt="" style="width: 6.5rem;"></a> </li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./relax.html"> relax</a></li>
+                      <li class="menu__list hvr-underline-from-center"><a href="./explore.html"> explore</a></li>
+                      <li class="menu__list hvr-underline-from-center li--active"><a href="./gallery.html"> gallery</a></li>
+                  </ul>
+              </nav>
+              <!--  -->
+          </div>
+          <div class="shadow"></div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Button-Logo_Img/Img Banner/2Br-03.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./Button-Logo_Img/shutterstock_1380225491.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Button-Logo_Img/Img Banner/Restaurant-02.jpg" alt="Third slide">
+          </div>
+  
+        </div>
+        
+        <!--  -->
+              <div class="header__slogan">
+                  <h3 class="wow fadeInUp" data-wow-delay="0.5s">where dreams & emotions live</h3>
+                  <div class=" animate" id="line-scroll" style="display: block;">
+                      <div class="line-scroll" id="lsl"> <span class="line active"></span> </div>
+                  </div>
+              </div>
+              <!--  -->
+      </div>
+      <!-- END HEADER Carousel Fade Effect -->
+    <div>
+        <!-- GALLERY SECTION -->
+        <div class="gallery-tab mt-5 border-none"> 
+
+            <nav>
+              <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link hvr-underline-from-center active" id="nav-ALL-tab" data-toggle="tab" href="#nav-ALL" role="tab" aria-controls="nav-ALL" aria-selected="true">ALL</a>
+                <a class="nav-item nav-link hvr-underline-from-center" id="nav-VILLAS-tab" data-toggle="tab" href="#nav-VILLAS" role="tab" aria-controls="nav-VILLAS" aria-selected="false">VILLAS</a>
+                <a class="nav-item nav-link hvr-underline-from-center" id="nav-DINING-tab" data-toggle="tab" href="#nav-DINING" role="tab" aria-con   trols="nav-DINING" aria-selected="false">DINING</a>
+                <a class="nav-item nav-link hvr-underline-from-center" id="nav-SPA-tab" data-toggle="tab" href="#nav-SPA" role="tab" aria-controls="nav-SPA" aria-selected="false">SPA</a>
+                <a class="nav-item nav-link hvr-underline-from-center" id="nav-FACILITIES-tab" data-toggle="tab" href="#nav-FACILITIES" role="tab" aria-controls="nav-FACILITIES" aria-selected="false">FACILITIES</a>
+                <a class="nav-item nav-link hvr-underline-from-center" id="nav-EVENTS-tab" data-toggle="tab" href="#nav-EVENTS" role="tab" aria-controls="nav-EVENTS" aria-selected="false">EVENTS</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-ALL" role="tabpanel" aria-labelledby="nav-ALL-tab">
+                <!-- start images ALL nav tabs -->
+              <div class="gal__row">
+                <a href="./gallery__click.html"><div class="gallery__row__img">
+                    <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/3BR-night.png"><img src="./Button-Logo_Img/Img Instagram/3BR-night.png" alt=""></a> -->
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="" class="">
+                    </div>
+                </div></a>
+              
+                  <div class="gallery__row__img">
+                        <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/PHRASE 2- 2 BEDROOMS-BATHROOM V1.png"><img 
+                        src="./Button-Logo_Img/Img Instagram/PHRASE 2- 2 BEDROOMS-BATHROOM V1.png" alt=""></a> -->
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                       <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/85199350_136874877536296_8637899070362097021_n.png"> <img src="./Button-Logo_Img/Img Instagram/85199350_136874877536296_8637899070362097021_n.png" alt=""></a> -->
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                       <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/PHRASE 2- 3 BEDROOMS-KID ROOM.png"> <img src="./Button-Logo_Img/Img Instagram/PHRASE 2- 3 BEDROOMS-KID ROOM.png" alt=""></a> -->
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                       <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/85221366_210567280090099_6995456764740561258_n.png"> <img src="./Button-Logo_Img/Img Instagram/85221366_210567280090099_6995456764740561258_n.png" alt=""></a> -->
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                       <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/Restaurant.png"> <img src="./Button-Logo_Img/Img Instagram/Restaurant.png" alt=""></a> -->
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                   <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/PHRASE 2- 3 BEDROOMS-BATHROOM 01.png"> <img src="./Button-Logo_Img/Img Instagram/PHRASE 2- 3 BEDROOMS-BATHROOM 01.png" alt=""></a> -->
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                <div class="gallery__row__img">
+                   <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/pexels-photo-871060.png"> <img src="./Button-Logo_Img/Img Instagram/pexels-photo-871060.png" alt=""></a> -->
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                <div class="gallery__row__img">
+                   <!-- <a class="example-image-link" data-lightbox="example-set" href="./Button-Logo_Img/Img Instagram/pexels-photo-3225531.png"> <img src="./Button-Logo_Img/Img Instagram/pexels-photo-3225531.png" alt=""></a> -->
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+              <div class="tab-pane fade" id="nav-VILLAS" role="tabpanel" aria-labelledby="nav-VILLAS-tab">
+                <div class="gal__row">
+                    <div class="gallery__row__img">
+                        <img src="./Button-Logo_Img/Img Instagram/Restaurant.png" alt="">
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                    <img src="./Button-Logo_Img/Img Instagram/PHRASE 2- 3 BEDROOMS-BATHROOM 01.png" alt="">
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                <div class="gallery__row__img">
+                    <img src="./Button-Logo_Img/Img Instagram/pexels-photo-871060.png" alt="">
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                <div class="gallery__row__img">
+                    <img src="./Button-Logo_Img/Img Instagram/pexels-photo-3225531.png" alt="">
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+                </div>
+
+            </div>
+              <div class="tab-pane fade" id="nav-DINING" role="tabpanel" aria-labelledby="nav-DINING-tab">
+                <div class="gal__row">
+                    <div class="gallery__row__img">
+                    <img src="./Button-Logo_Img/Img Instagram/3BR-night.png" alt="">
+                    <div class="gallery__img--override">
+                        <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                    </div>
+                    <div class="gallery__img__insta">
+                        <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                    </div>
+                </div>
+              
+                  <div class="gallery__row__img">
+                        <img 
+                        src="./Button-Logo_Img/Img Instagram/PHRASE 2- 2 BEDROOMS-BATHROOM V1.png" alt="">
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallery__row__img">
+                        <img src="./Button-Logo_Img/Img Instagram/85199350_136874877536296_8637899070362097021_n.png" alt="">
+                        <div class="gallery__img--override">
+                            <img src="./Button-Logo_Img/Img Instagram/hover.png" alt="">
+                        </div>
+                        <div class="gallery__img__insta">
+                            <img src="./Button-Logo_Img/gallery/+.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-SPA" role="tabpanel" aria-labelledby="nav-SPA-tab"> 
+                <div class="gal__row">
+                    
+                </div>
+               </div>
+              <div class="tab-pane fade" id="nav-FACILITIES" role="tabpanel" aria-labelledby="nav-FACILITIES-tab">
+                <div class="gal__row">
+                    
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-EVENTS" role="tabpanel" aria-labelledby="nav-EVENTS-tab">
+                <div class="gal__row">
+                    
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+
+        <!-- end gallery -->
+        
+        <div class="contact dflex">
+            <div class="contact__logo">
+                <img src="./Button-Logo_Img/logo.svg" alt="">
+            </div>
+            <div class="contact__info">
+                <h5 class="contact__info__title">MAIA RESORT QUY NHON</h5>
+                <p>
+                    <span>A part of mark No. 1, Nhon Ly - Cat Tien 
+                    Beach Resort, Nhon Hoi Economic Zone, Cat Tien Ward,
+                     Phu Cat District, Binh Dinh Province, Vietnam </span> <br>
+                    <span> <span class="text-bold">T.</span>  +84 297 3690 000 </span> <br>
+                    <span> <span class="text-bold">E.</span>  reservations@maiaresorts.com</span>
+                </p>
+                
+            </div>
+            <div class="contact__form">
+                <h5 class="contact__form__title">sign up for newsletter</h5>
+                <p class="contact__form__subs">Subscribe newsletter to receive offers</p>
+                <form>
+                    <input type="text" placeholder="Your email address">
+                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                </form>
+            </div>
+            <div class="contact__follow">
+                <h5 class="contact__follow__title">follow us</h5>
+                <p class="contact__follow__context">Social media channels</p>
+                <ul class="contact__follow__icons">
+                    <li class=""><a href="#" class="fab fa-tripadvisor"></a></li>
+                    <li class=""><a href="#" class="fab fa-facebook-square"></a></li>
+                    <li class=""><a href="#" class="fab fa-instagram"></a></li>
+                    <li class=""><a href="#" class="fab fa-youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__logos">
+            <div class="dflex logos__container">
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 529.svg" alt=""></div>
+                <div class="logos__fusion-border" style="width: 0px; height: 30px;background-color: #ccc;border-right: 1px solid #ccc;"></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 382.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 159.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 380.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 166.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 524.svg" alt=""></div>
+                <div class="logos__item"><img src="./Button-Logo_Img/Logos/Group 528.svg" alt=""></div>
+            </div>
+            
+        </div>
+        <div class="footer__infos dflex">
+            <div class="info__1">
+                <p class="info__1__title">CTY TNHH SERENITY HOLDING VIET NAM </p>
+                <p class="info__1__address">
+                    Địa chỉ: Lô L7-03+04, Tầng L7, Tòa nhà Vincom Center
+                     Đồng Khởi. Số 72 Lê Thánh Tôn và số 45A Lý Tự Trọng,
+                      Phường Bến Nghé, Quận 1, TP.HCM     <span style="font-family: Zona-Regular;">-  Hotline: (028) 39101000</span>      
+                      <span class="info__2__email">  - Email: info@fusionhotelgroup.com</span> - Giấy CNĐKDN: 0313903779 - Ngày cấp: 09/07/2016.
+                      Cơ quan cấp: Phòng Đăng ký kinh doanh Sở Kế hoạch 
+                      và Đầu tư TP.HCM
+                </p>
+            </div>
+            <div class="info__sale-policy">
+                <img src="./Button-Logo_Img/Logos/logoSaleNoti.svg" alt="">
+            </div>
+        </div>
+        <div class="footer__menu">
+            <ul class="">
+                <li> <a href="#"> CAREERS</a></li>
+                <li> <a href="#"> OUR STORY</a></li>
+                <li> <a href="./contact.html"> CONTACT US</a></li>
+                <li> <a href="#"> BLOGS</a></li>
+                <li> <a href="#"> PRIVACY POLICY</a></li>
+                <li> <a href="#"> ONLINE PAYMENT POLICY</a></li>
+                <li> <a href="#"> TERM & CONDITION </a></li>
+            </ul>
+            <p class=""><a href="#">SERENITY CO., LTD</a> </p>
+        </div>
+
+
+    </footer>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/paroller.js/dist/jquery.paroller.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+<script src="./js/style.js"></script>
+<!-- <script src="./js/loading.js"></script> -->
+<script src="./js/menuEffect.js"></script>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>

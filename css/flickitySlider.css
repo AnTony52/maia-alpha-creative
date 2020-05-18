@@ -1,0 +1,66 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+.gallery-slide .gallery-slide-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.gallery-slide .gallery-slide-cell img {
+  display: block;
+  height: 200px;
+}
+.gallery-slide .flickity-prev-next-button {
+    top: 50%;
+    width: 49%;
+    height: 100%;
+    border-radius: 0;
+    /* transform: translateY(-50%); */
+    background: transparent;
+}
+.gallery-slide .flickity-prev-next-button:hover {
+    content: "hello world";
+    background: transparent;
+
+    /* cursor: url("http://anuary.com/dev/hp/pad3/public/images/hand-cursor.png") 32, 32, col-resize; */
+}
+.gallery-slide .previous:hover {
+    cursor: url("../Button-Logo_Img/arrow_prev_gallery.svg") 30 30 , pointer;
+    /* background-color: rgba(0,0,0,.1); */
+}
+.gallery-slide .next:hover {
+    cursor: url("../Button-Logo_Img/arrow_next_gallery.svg") 30 30 , pointer;
+    /* background-color: rgba(0,0,0,.1); */
+}
+
+.gallery-slide .arrow {
+    visibility: hidden;
+}
+.gallery-slide .gallery-slide-cell {
+  /* width: 30vw; */
+  margin-left: 20px;
+  /* transform: none !important; */
+}
+.gallery-slide .gallery-slide-cell img{
+  /* opacity: .5; */
+  cursor: none;
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4));
+  /* width: 80%; */
+  /* transition: width .5s ease-in-out; */
+  
+}
+.gallery-slide .is-selected img {
+  opacity: 1;
+}
+.gallery-slide .flickity-page-dots .dots {
+  margin: 0 30px !important;
+}
+@media screen and ( min-width: 768px ) {
+  .gallery-slide .gallery-slide-cell img {
+    height: 400px;
+  }
+}
